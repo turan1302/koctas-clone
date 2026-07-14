@@ -1,0 +1,101 @@
+import { StyleSheet } from 'react-native';
+import { COLORS, BANNER_WIDTH } from '../colors';
+
+export default StyleSheet.create({
+  bannerWrap: {
+    paddingHorizontal: 16,
+    paddingTop: 8,
+    paddingBottom: 4,
+  },
+  bannerCard: {
+    width: BANNER_WIDTH,
+    borderRadius: 12,
+    overflow: 'hidden',
+    backgroundColor: COLORS.white,
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 4,
+  },
+  bannerPurple: {
+    backgroundColor: COLORS.purple,
+    paddingHorizontal: 16,
+    paddingTop: 14,
+    paddingBottom: 18,
+    minHeight: 170,
+  },
+  bannerCounter: {
+    alignSelf: 'flex-start',
+    backgroundColor: 'rgba(255,255,255,0.25)',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 12,
+    marginBottom: 10,
+  },
+  bannerCounterText: {
+    color: COLORS.white,
+    fontSize: 12,
+    fontWeight: '600',
+  },
+  bannerEyebrow: {
+    color: COLORS.white,
+    fontSize: 13,
+    fontWeight: '700',
+    letterSpacing: 0.5,
+    marginBottom: 6,
+  },
+  bannerIconsRow: {
+    flexDirection: 'row',
+    gap: 10,
+    marginBottom: 10,
+  },
+  bannerHeadline: {
+    color: COLORS.white,
+    fontSize: 20,
+    fontWeight: '900',
+    lineHeight: 26,
+    marginBottom: 12,
+  },
+  bannerHeadlineAccent: {
+    color: '#FFB84D',
+  },
+  bannerTime: {
+    alignSelf: 'center',
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: COLORS.orange,
+    paddingHorizontal: 12,
+    paddingVertical: 5,
+    borderRadius: 14,
+    gap: 6,
+  },
+  bannerTimeText: {
+    color: COLORS.white,
+    fontSize: 12,
+    fontWeight: '700',
+  },
+  bannerFooter: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 14,
+    paddingVertical: 12,
+    backgroundColor: COLORS.white,
+  },
+  bannerFooterText: {
+    flex: 1,
+    fontSize: 13,
+    fontWeight: '600',
+    color: COLORS.text,
+    paddingRight: 10,
+    lineHeight: 18,
+  },
+  bannerArrowBtn: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: COLORS.orange,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});

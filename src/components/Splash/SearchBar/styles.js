@@ -1,0 +1,76 @@
+import { StyleSheet } from 'react-native';
+import { W, colors } from '../colors';
+
+export default StyleSheet.create({
+  searchBar: {
+    marginTop: 18,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    width: W * 0.72,
+    maxWidth: 320,
+    height: 48,
+    borderRadius: 24,
+    borderWidth: 2,
+    borderColor: colors.searchBorder,
+    paddingHorizontal: 16,
+    backgroundColor: 'transparent',
+  },
+  searchIcon: {
+    width: 18,
+    height: 18,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  searchCircle: {
+    width: 14,
+    height: 14,
+    borderRadius: 7,
+    borderWidth: 2,
+    borderColor: colors.white,
+  },
+  searchHandle: {
+    position: 'absolute',
+    width: 7,
+    height: 2.5,
+    backgroundColor: colors.white,
+    borderRadius: 1,
+    right: -1,
+    bottom: 1,
+    transform: [{ rotate: '45deg' }],
+  },
+  searchText: {
+    color: colors.white,
+    fontSize: 16,
+    fontWeight: '700',
+    letterSpacing: 0.3,
+  },
+  micIcon: {
+    width: 16,
+    height: 20,
+    alignItems: 'center',
+  },
+  micHead: {
+    width: 10,
+    height: 14,
+    borderRadius: 5,
+    borderWidth: 2,
+    borderColor: colors.white,
+  },
+  micStand: {
+    width: 14,
+    height: 7,
+    borderWidth: 2,
+    borderTopWidth: 0,
+    borderColor: colors.white,
+    borderBottomLeftRadius: 8,
+    borderBottomRightRadius: 8,
+    marginTop: -1,
+  },
+  micBase: {
+    width: 2,
+    height: 4,
+    backgroundColor: colors.white,
+    marginTop: 1,
+  },
+});

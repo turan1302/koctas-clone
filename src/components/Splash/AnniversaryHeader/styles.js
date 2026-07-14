@@ -1,0 +1,88 @@
+import { StyleSheet } from 'react-native';
+import { H, colors } from '../colors';
+
+export default StyleSheet.create({
+  topSection: {
+    marginTop: H * 0.08,
+    alignItems: 'center',
+    zIndex: 2,
+  },
+  houseOutline: {
+    width: 72,
+    height: 78,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  houseRoof: {
+    width: 0,
+    height: 0,
+    borderLeftWidth: 36,
+    borderRightWidth: 36,
+    borderBottomWidth: 28,
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    borderBottomColor: colors.white,
+    marginBottom: -2,
+  },
+  houseRoofInner: {
+    position: 'absolute',
+    top: 4,
+    width: 0,
+    height: 0,
+    borderLeftWidth: 30,
+    borderRightWidth: 30,
+    borderBottomWidth: 23,
+    borderLeftColor: 'transparent',
+    borderRightColor: 'transparent',
+    borderBottomColor: colors.bg,
+    zIndex: 1,
+  },
+  houseBody: {
+    width: 56,
+    height: 42,
+    borderWidth: 3,
+    borderTopWidth: 0,
+    borderColor: colors.white,
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'visible',
+  },
+  houseBodyFill: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: colors.bg,
+  },
+  koctasDiagonal: {
+    color: colors.white,
+    fontSize: 13,
+    fontWeight: '800',
+    letterSpacing: 0.5,
+    transform: [{ rotate: '-28deg' }],
+    marginTop: -4,
+  },
+  thirtyYearRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 10,
+  },
+  thirtyYearText: {
+    color: colors.white,
+    fontSize: 22,
+    fontWeight: '800',
+    letterSpacing: 1,
+  },
+  zeroWrap: {
+    width: 22,
+    height: 22,
+    borderRadius: 11,
+    borderWidth: 2.5,
+    borderColor: colors.white,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 1,
+  },
+  heartInZero: {
+    color: colors.white,
+    fontSize: 10,
+    marginTop: 1,
+  },
+});

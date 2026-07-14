@@ -1,0 +1,15 @@
+export const COLORS = {
+  orange: '#F58220',
+  white: '#FFFFFF',
+  bg: '#FFFFFF',
+  text: '#333333',
+  label: '#9A9A9A',
+  border: '#D9D9D9',
+  button: '#4A4A4A',
+  muted: '#757575',
+  divider: '#E5E5E5',
+  googleBlue: '#4285F4',
+  googleRed: '#EA4335',
+  googleYellow: '#FBBC05',
+  googleGreen: '#34A853',
+};

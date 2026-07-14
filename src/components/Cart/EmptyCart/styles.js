@@ -1,0 +1,76 @@
+import { StyleSheet } from 'react-native';
+import { COLORS } from '../colors';
+
+export default StyleSheet.create({
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: COLORS.text,
+    marginTop: 16,
+    marginHorizontal: 16,
+    marginBottom: 8,
+  },
+  emptyBox: {
+    marginHorizontal: 16,
+    backgroundColor: COLORS.white,
+    borderRadius: 8,
+    paddingVertical: 36,
+    paddingHorizontal: 24,
+    alignItems: 'center',
+  },
+  bagIcon: {
+    width: 72,
+    height: 80,
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  bagHandle: {
+    width: 36,
+    height: 18,
+    borderWidth: 3,
+    borderBottomWidth: 0,
+    borderColor: COLORS.orange,
+    borderTopLeftRadius: 18,
+    borderTopRightRadius: 18,
+    marginBottom: -2,
+  },
+  bagBody: {
+    width: 64,
+    height: 52,
+    backgroundColor: COLORS.orange,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  bagSmile: {
+    width: 22,
+    height: 12,
+    borderBottomWidth: 3,
+    borderLeftWidth: 3,
+    borderRightWidth: 3,
+    borderColor: COLORS.white,
+    borderBottomLeftRadius: 12,
+    borderBottomRightRadius: 12,
+    marginTop: 4,
+  },
+  emptyText: {
+    fontSize: 14,
+    color: COLORS.textMuted,
+    textAlign: 'center',
+    marginBottom: 20,
+    lineHeight: 20,
+  },
+  startBtn: {
+    backgroundColor: COLORS.button,
+    paddingHorizontal: 28,
+    paddingVertical: 12,
+    borderRadius: 6,
+    minWidth: 180,
+    alignItems: 'center',
+  },
+  startBtnText: {
+    color: COLORS.white,
+    fontSize: 14,
+    fontWeight: '700',
+  },
+});
